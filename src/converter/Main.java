@@ -7,10 +7,16 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- * 
+ * Main class for run and show program converter
+ *
+ * @author Supaluk Jaroensuk
  */
 public class Main extends Application{
 
+    /**
+     * The application initialization method
+     * @param stage is the primary stage for this application
+     */
     @Override
     public void start(Stage stage)  {
         try {
@@ -27,6 +33,10 @@ public class Main extends Application{
         }
     }
 
+    /**
+     * Launch a standalone application
+     * @param args is the command line arguments passed to the application
+     */
     public static void main(String[] args) {
         launch(args);
     }
